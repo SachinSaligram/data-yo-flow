@@ -24,13 +24,6 @@ The idea of this project is to build a robuts and efficient data pipeline that s
   __3. 15th October 2017__
 
   * Implemented a parallel process to store JSON streaming data from Twitter API in MongoDB for persistant, fault tolerant storage.
-  * Currently exploring the possibility of supplying a subset of data in MongoDB to Elasticsearch to allow for custom queries.
-
-
-### Pending Tasks
-
-1. Connect MongoDB to Elasticsearch+Kibana to provide visualizations for custom queries.
-2. Move the framework to a VCL cluster to check for performance issues and bugs.
-3. Add/update data processing tasks in Apache Spark.
-  
-__Note__: Implementations are currently being done on local machine with the hope of moving it to a VCL cluster by the end of October.
+* Connected MongoDB to Elasticsearch+Kibana to provide visualizations for custom queries.
+* Moved the framework to a VCL cluster to check for performance issues and bugs.
+* Added/updated data processing tasks in Apache Spark.
